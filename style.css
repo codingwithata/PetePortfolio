@@ -34,7 +34,12 @@ p {
 }
 
 a {
-  color: red;
+  color: #d62828;
+  transition: color 0.3s; 
+}
+
+a:hover {
+  color: #f77f00;
 }
 
 div.container {
@@ -55,10 +60,9 @@ hr {
   border: 1px solid black;
 }
 
-
 .image-circle {
-  border: 1px solid black;
-  border-radius: 50%;
+  border: 2px solid #003049; 
+  border-radius: 50%; 
 }
 
 nav a {
